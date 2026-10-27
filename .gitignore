@@ -21,7 +21,7 @@ git add validator.py README.md LICENSE .gitignore
 git commit -m "Initial commit: Polyglot Syntax Validator"
 # 3. Connecter et pousser
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/polyglot-syntax-validator.git
+git remote add origin https://github.com/Aissamohammedi88/polyglot-syntax-validator.git
 git push -u origin main
 pip install pygments tree-sitter-language-pack
 python validator.py
