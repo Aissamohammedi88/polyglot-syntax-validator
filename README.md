@@ -126,9 +126,7 @@ This project is licensed under the MIT License. See LICENSE for details.
 Built by Aissa Mohammedi (DGK) — Nexus Quantum
 text
 
-
-
-## LICENSE (MIT)
+## LICENSE (MIT
 
 MIT License
 
@@ -153,36 +151,3 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 text
 
-
-
-## .gitignore
-
-pycache/
-*.py[cod]
-*.egg-info/
-.venv/
-venv/
-.env
-.DS_Store
-*.log
-text
-
-
-
-## Procédure de publication sur GitHub
-
-```bash
-# 1. Créer le dépôt sur GitHub (interface web ou CLI)
-gh repo create polyglot-syntax-validator --public --description "A multilingual code editor with real-time syntax validation powered by tree-sitter and Pygments"
-
-# 2. Initialiser le dépôt local
-cd /path/to/your/code
-git init
-git add validator.py README.md LICENSE .gitignore
-git commit -m "Initial commit: Polyglot Syntax Validator"
-# 3. Connecter et pousser
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/polyglot-syntax-validator.git
-git push -u origin main
-pip install pygments tree-sitter-language-pack
-python validator.py
